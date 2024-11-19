@@ -7,7 +7,7 @@ import { IKnowledge } from '../../interface/IKnowledge.interface';
   standalone: true,
   imports: [],
   templateUrl: './knowledge.component.html',
-  styleUrl: './knowledge.component.css'
+  styleUrl: './knowledge.component.scss'
 })
 export class KnowledgeComponent {
   public arrayKnowledge  = signal<IKnowledge[]>([

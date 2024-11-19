@@ -6,7 +6,7 @@ import { IExperiences } from '../../interface/IExperiences.interface';
   standalone: true,
   imports: [],
   templateUrl: './experiences.component.html',
-  styleUrl: './experiences.component.css'
+  styleUrl: './experiences.component.scss'
 })
 export class ExperiencesComponent {
   public arrayExperiences = signal<IExperiences[]>([

@@ -6,7 +6,7 @@ import { IProjects } from '../../interface/IProjects.interface';
   standalone: true,
   imports: [],
   templateUrl: './projects.component.html',
-  styleUrl: './projects.component.css'
+  styleUrl: './projects.component.scss'
 })
 export class ProjectsComponent {
   public arrayProjects = signal<IProjects[]>([
