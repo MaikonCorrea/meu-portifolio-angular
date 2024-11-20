@@ -34,6 +34,18 @@ export class KnowledgeComponent {
     {
       src: 'assets/icons/knowledge/sass.svg',
       alt: 'icone de SasS'
+    },
+    {
+      src: 'assets/icons/knowledge/react.svg',
+      alt: 'icone de SasS'
+    },
+    {
+      src: 'assets/icons/knowledge/typescript.svg',
+      alt: 'icone de SasS'
+    },
+    {
+      src: 'assets/icons/knowledge/mongodb.svg',
+      alt: 'icone de SasS'
     }
   ])
 
