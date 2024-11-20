@@ -1,27 +1,29 @@
 # MeuPortifolioAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+Este projeto foi desenvolvido para estudo e também para a criação da minha landing page de portfólio. Ele utiliza a linguagem TypeScript e o framework Angular.
 
-## Development server
+## Linguagem e Framework
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### TypeScript
 
-## Code scaffolding
+**TypeScript** é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript que adiciona tipagem estática opcional ao JavaScript. Isso permite detectar erros em tempo de desenvolvimento, resultando em um código mais robusto e fácil de manter. TypeScript também suporta recursos modernos de JavaScript e oferece ferramentas poderosas para desenvolvimento, como autocompletar, navegação de código e refatoração.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Angular
 
-## Build
+**Angular** é uma plataforma de desenvolvimento para a construção de aplicações web dinâmicas e robustas. Desenvolvido pelo Google, o Angular facilita a criação de aplicações de página única (SPAs) com uma arquitetura bem definida e componentes reutilizáveis. Ele utiliza TypeScript como linguagem principal, o que proporciona uma experiência de desenvolvimento mais segura e eficiente.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Dependências Principais
 
-## Running unit tests
+### Dependências de Produção
+- `@angular/core`: ^18.2.0
+- `@angular/forms`: ^18.2.0
+- `@angular/material`: ^17.0.0
+- `@angular/platform-browser`: ^18.2.0
+- `@angular/router`: ^18.2.0
+- `rxjs`: ~7.8.0
+- `zone.js`: ~0.14.10
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Dependências de Desenvolvimento
+- `@angular/cli`: ^18.2.11
+- `@angular/compiler-cli`: ^18.2.0
+- `typescript`: ~5.5.2
