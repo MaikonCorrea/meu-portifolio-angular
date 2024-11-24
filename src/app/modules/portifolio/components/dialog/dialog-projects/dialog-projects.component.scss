@@ -14,7 +14,7 @@
 
   header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
     h2 {
@@ -29,6 +29,8 @@
       border: none;
       padding: 0;
       cursor: pointer;
+      position: absolute;
+      right: 30px;
     }
   }
 
@@ -39,6 +41,7 @@
 
   article {
     margin-bottom: 15px;
+    text-align: justify;
 
     p {
       font-size: 16px;

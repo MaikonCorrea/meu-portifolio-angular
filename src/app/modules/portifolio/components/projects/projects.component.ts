@@ -21,7 +21,7 @@ export class ProjectsComponent {
       title: 'News Explorer',
       width: '140px',
       heigth: '91px',
-      description: 'Aplicação de notícias com busca de notícias por palavra-chave ',
+      description: 'Este projeto de Frontend  em React.js e JavaScript, é um site de busca de noticias, onde o usuário pode buscar noticias por palavra chave e se tiver um cadastro de inscrição no site e estiver logado pode salvar a notícia que mais gostou. Já o Backend em Node.js, usando Express, desenvolvi uma API e utilizei também uma API de terceiros, para que juntas pudessem além de retornarem do Banco de dados as notícias também controlasse a incrição de usuários e o login. No banco de dados foi usado o mongoAtlas.',
       links: [
         {
           name: 'Conheça o Site',
@@ -31,11 +31,11 @@ export class ProjectsComponent {
     },
     {
       src: 'assets/img/projects/connect_eco.jpg',
-      alt: 'logo de Hackathon connectEco',
+      alt: ' Imagem do site desenvolvido no hackathon chamado Connect Eco',
       title: 'Connect Eco',
       width: '140px',
       heigth: '91px',
-      description: 'site para busca de pontos de coleta de lixo reciclavel, com filtro por tipo de lixo e localização',
+      description:'Esta aplicação foi desenvolvida em Next.js e JavaScrip. Para a armazenar as informações foi usado um arquivo Json, em uma pasta Mock pois necessitavamos de agilidade por se tratar de um Hackathon. O objetivo era desenvolver uma aplicação voltada para sustentabilidade, a nossa aplicação ajuda a conectar pessoas que querem descartar resíduos recicláveis e muitas vezes não encontram onde fazer, com locais que recebem determinados tipos de resíduos e também locais que utilizam estes resíduos na fabricação de seus produtos, com isso aumentamos as chances de reciclagem e consequentemente a diminuição do descarte indevido de resíduos no meio ambiente.',
       links: [
         {
           name: 'Conheça o Site',
