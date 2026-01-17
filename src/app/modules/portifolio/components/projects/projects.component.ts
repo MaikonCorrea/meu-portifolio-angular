@@ -25,7 +25,7 @@ export class ProjectsComponent {
       links: [
         {
           name: 'Conheça o Site',
-          href: 'https://vercelfrontend-maikoncorreas-projects.vercel.app/',
+          href: 'https://newsexplorerfrontend-seven.vercel.app/',
         }
       ]
     },
@@ -44,19 +44,20 @@ export class ProjectsComponent {
       ]
     },
     {
-      src: 'assets/img/projects/instabytes.jpg',
-      alt: 'imagem da página inicial do projeto instabytes',
-      title: 'Imersão Beckend Alura',
+      src: 'assets/img/projects/MkSystem_projeto.png',
+      alt: 'Imagem do projeto MkSystem - Controle financeiro',
+      title: 'MkSystem - Controle financeiro',
       width: '140px',
       heigth: '91px',
-      description: 'Este projeto foi desenvolvido durante a Imersão Beckend da Alura, onde foi desenvolvido somente o backend e realizado o deploy da aplicação na google cloud, o front end foi disponibilizado pela Alura e foi usado somente para ilustrar o funcionamento do backend',
+      description:'Aplicação Fullstack de gestão financeira desenvolvida com React e Supabase. O sistema utiliza uma arquitetura serverless robusta, onde o Supabase gere a autenticação, base de dados PostgreSQL e atualizações em tempo real. A segurança é garantida através de Row Level Security (RLS) no banco de dados e gestão de sessão com auto-logout no frontend. A monetização inclui um sistema de subscrição híbrido: automatizado via Stripe (com Webhooks para renovação e cancelamento) e uma integração manual via PIX, gerando QR Codes dinâmicos e facilitando a confirmação pelo painel de controle e envio do usuário de comprovantes de pagamento, integrei na mensagem do WhatsApp o envio de nome do usuário e e-mail, para facilitar no momento da ativação do plano ou sua mudança.',
       links: [
         {
           name: 'Conheça o Site',
-          href: 'https://imersaobackendalura.netlify.app/',
+          href: 'https://www.mksystem.app',
         }
       ]
     },
+
   ])
 
   public openDialog(data: IProjects) {
